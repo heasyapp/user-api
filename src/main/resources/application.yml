@@ -1,0 +1,18 @@
+display:
+  mach: 3
+  unit:
+    name: "mph"
+    factor: 2.23694
+
+quarkus:
+  native:
+    native-image-xmx: "8g"
+  container-image:
+    build: true
+    push: true
+    builder: "docker"
+    group: "heasyapp"
+    username: "heasyapp" 
+    password: "UAJ8BxAs3TwzkNj"
+  swagger-ui:
+    always-include: true
