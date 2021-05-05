@@ -16,3 +16,6 @@ quarkus:
     password: "UAJ8BxAs3TwzkNj"
   swagger-ui:
     always-include: true
+  mongodb:
+    connection-string: "mongodb://localhost:27017"
+    database: "heasyapp"
