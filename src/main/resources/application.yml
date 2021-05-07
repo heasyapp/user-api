@@ -17,5 +17,5 @@ quarkus:
   swagger-ui:
     always-include: true
   mongodb:
-    connection-string: "mongodb://localhost:27017"
+    connection-string: "mongodb://mongodb.heasyapp.com:27017"
     database: "heasyapp"
