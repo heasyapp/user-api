@@ -36,7 +36,7 @@ public class UserResource {
     public User getById(@PathParam("id") String id) {
         return Optional.<User>ofNullable(User.findById(new ObjectId(id))).orElseThrow(NotFoundException::new);
     }
-
+    
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.TEXT_PLAIN)
